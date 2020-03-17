@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            font-family: sans-serif;
+        }
+        header {
+            text-align: center;
+        }
+        .infos{
+            width: 500px;
+            background-color: chartreuse;
+            margin: 0 auto;
+            text-align: center;
+            border-radius: 5px;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Corona Virus</h1>
+        <div class="infos">
+            <h1></h1>
+            <p>Casos Confirmados : <strong class="confirmed"></strong></p>
+            <p>Mortos : <strong class="mortos"></strong></p>
+            <p>Ativos : <strong class="ativos"></strong></p>
+            <p>Recuperados : <strong class="recuperados"></strong></p>
+        </div>
+    </header>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
